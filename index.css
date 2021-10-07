@@ -1,5 +1,6 @@
 h1 {
   color: gold;
   text-align: center;
-  margin: 0 auto;
+  margin: 100 auto;
+  background-color: rgb(12, 49, 158);
 }
