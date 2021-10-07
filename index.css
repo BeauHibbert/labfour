@@ -14,5 +14,11 @@ main {
 }
 nav {
   background-color: lightslategray;
-  margin: 0 auto;
+  text-align: center;
+}
+button {
+  margin: 20px;
+}
+p {
+  margin: 0px;
 }
