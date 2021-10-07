@@ -1,7 +1,6 @@
 h1 {
   color: gold;
   text-align: center;
-  margin: 100 auto;
 }
 img {
   align-content: center;
@@ -9,4 +8,11 @@ img {
 }
 header {
   background-color: rgb(12, 49, 158);
+}
+main {
+  background-color: gray;
+}
+nav {
+  background-color: lightslategray;
+  margin: 0 auto;
 }
