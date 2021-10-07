@@ -32,6 +32,10 @@ footer {
   height: 100;
 }
 #rankings {
+  width: 300px;
+  height: 200px;
+}
+#joe {
   width: 400px;
   height: 300px;
 }
