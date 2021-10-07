@@ -2,15 +2,12 @@ h1 {
   color: gold;
   text-align: center;
 }
-img {
-  align-content: center;
-  border: 1px solid black;
-}
 header {
   background-color: rgb(12, 49, 158);
 }
 main {
   background-color: gray;
+  padding: 40px;
 }
 nav {
   background-color: lightslategray;
@@ -21,4 +18,20 @@ button {
 }
 p {
   margin: 0px;
+}
+footer {
+  color: dimgrey;
+}
+
+#trophy {
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid black;
+  width: 150px;
+  height: 100;
+}
+#rankings {
+  width: 400px;
+  height: 300px;
 }
