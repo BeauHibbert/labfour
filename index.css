@@ -2,5 +2,11 @@ h1 {
   color: gold;
   text-align: center;
   margin: 100 auto;
+}
+img {
+  align-content: center;
+  border: 1px solid black;
+}
+header {
   background-color: rgb(12, 49, 158);
 }
