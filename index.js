@@ -1,3 +1,23 @@
-let userInput = document.getElementById("answer").value;
+let userInput = document.getElementById("userInput").value.toLowercase();
+let button = document.getElementById("submitButton");
+let pTag = document.getElementById("output");
+let pTagContent = '';
 
-console.log(userInput);
+function determineFavoriteTeam() {
+  if (userInput === 'washington state') {
+    pTagContent = "Go Cougs!";
+  } else {
+    pTagContent = "Booooo! Wrong answer!"
+  }
+
+  pTag.innerHTML = pTagContent;
+
+  console.log(userInput);
+  console.log(pTagContent);
+}
+
+button.addEventListener('click', determineFavoriteTeam);
+
+
+
+
