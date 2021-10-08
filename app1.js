@@ -47,7 +47,7 @@
 // // button.addEventListener('click', determineFavoriteTeam);
 // document.getElementById('submitButton').addEventListener('click', determineFavoriteTeam);
 
-// Display pictures with for loop
+// Display pictures using loops
 
 function displayPictures(){
   let userAnswer = prompt('How many footballs can you catch? Please enter a number between 1 and 10.');
@@ -60,10 +60,8 @@ function displayPictures(){
 
   if(userAnswer > minimum && userAnswer < maximum) {
     for(let i = 0; i < userAnswer; i++) { 
-      document.write('<img src="footbawww.jpg" />');
+      document.write('<img src="./images/footbawww.jpg" />');
     }
   }
 }
-
-
 
