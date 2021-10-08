@@ -47,22 +47,19 @@
 // // button.addEventListener('click', determineFavoriteTeam);
 // document.getElementById('submitButton').addEventListener('click', determineFavoriteTeam);
 
-// Guessing game
+// Display pictures with for loop
 
-function guessingGame(){
+function displayPictures(){
   let userAnswer = prompt('How many footballs can you catch? Please enter a number between 1 and 10.');
-  let maxAttempts = 3;
   let minimum = 1;
   let maximum = 10;
 
-  for(let i = 0; i < maxAttempts; i++) {
-    console.log(i)
-    while(userAnswer < minimum || userAnswer > maximum) {
-      userAnswer = prompt('Try again! Please enter a number between 1 and 10');
-      i++;
-    }
+  while(userAnswer < minimum || userAnswer > maximum) {
+    userAnswer = prompt('Try again! Please enter a number between 1 and 10.');
+  }
 
-    if(userAnswer > minimum && userAnswer < maximum) {
+  if(userAnswer > minimum && userAnswer < maximum) {
+    for(let i = 0; i < userAnswer; i++) { 
       document.write('<img src="footbawww.jpg" />');
     }
   }
