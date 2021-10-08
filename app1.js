@@ -47,6 +47,15 @@ function footballOpinion(){
 // // button.addEventListener('click', determineFavoriteTeam);
 // document.getElementById('submitButton').addEventListener('click', determineFavoriteTeam);
 
+// Guessing game
+
+function guessingGame(){
+  let userAnswer = prompt('How many games are there in a season?');
+  let correctAnswer = 12;
+  let maxAttempts = 3;
+  let minimum = 1;
+  let maximum = 100;
+}
 
 
 
