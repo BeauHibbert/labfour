@@ -17,8 +17,9 @@ function determineFavoriteTeam() {
   console.log(pTagContent);
 }
 
-let button = document.getElementById('submitButton');
-button.addEventListener('click', determineFavoriteTeam);
+// let button = document.getElementById('submitButton');
+// button.addEventListener('click', determineFavoriteTeam);
+document.getElementById('submitButton').addEventListener('click', determineFavoriteTeam);
 
 
 
