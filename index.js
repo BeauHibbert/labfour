@@ -1,7 +1,11 @@
 let userName = prompt('What is your name?');
 console.log('userName: ', userName);
 
-
+if (userName == 'Beau'){
+  document.write('<h2>Welcome ' + userName + '!!!!!!!</h2>')
+} else {
+  document.write('<h2>Hi ' + userName + '!</h2>')
+}
 // let pTag = document.getElementById('output');
 // let pTagContent = '';
 
