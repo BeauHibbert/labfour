@@ -7,6 +7,8 @@ function getUserName(){
   } else {
     document.write('<h2>Hi ' + userName + '!</h2>');
   }
+
+  return userName;
 }
 
 function footballOpinion(){
