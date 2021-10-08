@@ -1,14 +1,14 @@
-let userInput = document.getElementById("userInput").value.toLowerCase();
+let userInput = document.getElementById('userInput').value.toLowerCase();
 console.log(userInput);
-let button = document.getElementById("submitButton");
-let pTag = document.getElementById("output");
+let button = document.getElementById('submitButton');
+let pTag = document.getElementById('output');
 let pTagContent = '';
 
 function determineFavoriteTeam() {
   if (userInput === 'washington state') {
-    pTagContent = "Go Cougs!";
+    pTagContent = 'Go Cougs!';
   } else {
-    pTagContent = "Booooo! Wrong answer!"
+    pTagContent = 'Booooo! Wrong answer!';
   }
 
   pTag.innerHTML = pTagContent;
