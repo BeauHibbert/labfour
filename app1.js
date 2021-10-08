@@ -13,9 +13,11 @@ function getUserName(){
 
 function footballOpinion(){
   let likesFootball = prompt('Do you enjoy watching football?');
+  let lowercaseAnswer = likesFootball.toLowerCase();
   console.log('likesFootball: ', likesFootball);
+  console.log('lowercaseAnswer ', lowercaseAnswer);
 
-  if (likesFootball == 'Yes'){
+  if (lowercaseAnswer == 'yes'){
     document.write('<h2>You are in the right place then!</h2>');
   } else {
     document.write('<h2>Get outta here!</h2>');
