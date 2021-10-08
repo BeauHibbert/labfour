@@ -1,25 +1,29 @@
-let pTag = document.getElementById('output');
-let pTagContent = '';
-
-function determineFavoriteTeam() {
-  let userInput = document.getElementById('userInput').value.toLowerCase();
+let userName = prompt('What is your name?');
+console.log('userName: ', userName);
 
 
-  if (userInput === 'washington state') {
-    pTagContent = 'Go Cougs!';
-  } else {
-    pTagContent = 'Booooo! Wrong answer!';
-  }
+// let pTag = document.getElementById('output');
+// let pTagContent = '';
 
-  pTag.innerHTML = pTagContent;
+// function determineFavoriteTeam() {
+//   let userInput = document.getElementById('userInput').value.toLowerCase();
 
-  console.log(userInput);
-  console.log(pTagContent);
-}
 
-// let button = document.getElementById('submitButton');
-// button.addEventListener('click', determineFavoriteTeam);
-document.getElementById('submitButton').addEventListener('click', determineFavoriteTeam);
+//   if (userInput === 'washington state') {
+//     pTagContent = 'Go Cougs!';
+//   } else {
+//     pTagContent = 'Booooo! Wrong answer!';
+//   }
+
+//   pTag.innerHTML = pTagContent;
+
+//   console.log(userInput);
+//   console.log(pTagContent);
+// }
+
+// // let button = document.getElementById('submitButton');
+// // button.addEventListener('click', determineFavoriteTeam);
+// document.getElementById('submitButton').addEventListener('click', determineFavoriteTeam);
 
 
 
